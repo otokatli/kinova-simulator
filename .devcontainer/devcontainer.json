@@ -1,0 +1,14 @@
+{
+    "name": "Kinova Gen3 MuJoCo Simulator",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+          "extensions": ["ms-python.python",
+                         "ms-python.debugpy",
+                         "ms-toolsai.jupyter"
+            ]
+        }
+    }
+}
