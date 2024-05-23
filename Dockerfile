@@ -8,7 +8,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 SHELL ["/bin/bash", "-c"]
 
 RUN apt-get update && apt-get install -y \
-    python3-pip xvfb && \
+    python3-pip xvfb git && \
     rm -rf /var/lib/apt/lists/*
 
 RUN rm -rf /usr/lib/python3.12/EXTERNALLY-MANAGED && \
