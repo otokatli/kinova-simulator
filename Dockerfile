@@ -12,4 +12,4 @@ RUN apt-get update && apt-get install -y \
     rm -rf /var/lib/apt/lists/*
 
 RUN rm -rf /usr/lib/python3.12/EXTERNALLY-MANAGED && \
-    python3 -m pip install numpy scipy matplotlib jupyterlab scikit-learn pandas mujoco
+    python3 -m pip install numpy scipy matplotlib jupyterlab scikit-learn pandas mujoco pyKinovaGen3
